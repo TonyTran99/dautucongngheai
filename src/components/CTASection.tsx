@@ -18,7 +18,7 @@ export function CTASection() {
           <Link 
             href="https://app.riftprotocol.ai/r/WiJcDb"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto flex h-16 items-center justify-center gap-2 rounded-xl bg-rift px-10 text-lg font-bold text-white transition-all hover:bg-rift-light hover:scale-105 hover:shadow-[0_0_30px_rgba(0,168,89,0.5)]"
           >
             Dùng bảng Demo Miễn Phí
@@ -28,7 +28,7 @@ export function CTASection() {
           <Link 
             href="https://zalo.me/0935635788"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto flex h-16 items-center justify-center gap-3 rounded-xl border border-zinc-700 bg-zinc-900 px-10 text-lg font-bold text-white transition-all hover:bg-zinc-800 hover:border-zinc-500"
           >
             <MessageCircle className="h-6 w-6 text-blue-400" />

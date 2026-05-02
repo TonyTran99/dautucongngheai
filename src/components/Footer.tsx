@@ -14,10 +14,10 @@ export function Footer() {
           </div>
           
           <div className="flex items-center gap-6 text-sm text-zinc-500">
-            <Link href="https://app.riftprotocol.ai/r/WiJcDb" target="_blank" className="hover:text-rift-light transition-colors">
+            <Link href="https://app.riftprotocol.ai/r/WiJcDb" target="_blank" rel="noopener noreferrer" className="hover:text-rift-light transition-colors">
               Bảng Demo
             </Link>
-            <Link href="https://zalo.me/0935635788" target="_blank" className="hover:text-rift-light transition-colors">
+            <Link href="https://zalo.me/0935635788" target="_blank" rel="noopener noreferrer" className="hover:text-rift-light transition-colors">
               Hỗ trợ Zalo
             </Link>
           </div>

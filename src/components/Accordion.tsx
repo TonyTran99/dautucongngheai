@@ -38,7 +38,7 @@ export function Accordion({ question, answer, isOpen, onClick }: AccordionProps)
             <div 
               className="pb-5 pr-12 text-zinc-400 leading-relaxed space-y-3"
               dangerouslySetInnerHTML={{ 
-                __html: answer.replace(/\n/g, "<br />").replace(/\*\*(.*?)\*\*/g, "<strong className='text-zinc-200'>$1</strong>") 
+                __html: answer.replace(/\n/g, "<br />").replace(/\*\*(.*?)\*\*/g, "<strong class='text-zinc-200'>$1</strong>") 
               }}
             />
           </motion.div>
