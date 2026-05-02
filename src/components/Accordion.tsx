@@ -35,12 +35,9 @@ export function Accordion({ question, answer, isOpen, onClick }: AccordionProps)
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="overflow-hidden"
           >
-            <div 
-              className="pb-5 pr-12 text-zinc-400 leading-relaxed space-y-3"
-              dangerouslySetInnerHTML={{ 
-                __html: answer.replace(/\n/g, "<br />").replace(/\*\*(.*?)\*\*/g, "<strong class='text-zinc-200'>$1</strong>") 
-              }}
-            />
+            <div className="pb-5 pr-12 text-zinc-400 leading-relaxed whitespace-pre-wrap">
+              {answer}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
