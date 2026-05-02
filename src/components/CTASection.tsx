@@ -11,7 +11,7 @@ export function CTASection() {
           Sẵn sàng để bước vào kỷ nguyên giao dịch mới?
         </h2>
         <p className="text-xl text-zinc-400 mb-10 max-w-2xl mx-auto">
-          Ngừng "chiến đấu" với thị trường. Trao quyền thực thi cho RIFT và để trí tuệ nhân tạo tối ưu hóa lợi nhuận của bạn.
+          Ngừng &quot;chiến đấu&quot; với thị trường. Trao quyền thực thi cho RIFT và để trí tuệ nhân tạo tối ưu hóa lợi nhuận của bạn.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
