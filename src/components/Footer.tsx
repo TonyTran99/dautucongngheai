@@ -6,11 +6,7 @@ export function Footer() {
       <div className="container mx-auto max-w-5xl px-4 sm:px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2L2 12L12 22L22 12L12 2Z" fill="currentColor" className="text-zinc-400" />
-              <path d="M12 2L2 12H12V2Z" fill="var(--color-rift)" />
-            </svg>
-            <span className="text-xl font-bold tracking-tight text-zinc-400">rift</span>
+            <img src="/logo.png" alt="RIFT Logo" className="h-8 w-auto invert mix-blend-screen opacity-70" />
           </div>
           
           <div className="flex items-center gap-6 text-sm text-zinc-500">
