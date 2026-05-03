@@ -48,7 +48,7 @@ export const qnaList: QnA[] = [
   {
     id: 9,
     question: "RIFT xây dựng trên Blockchain Hyperliquid có làm giao dịch bị chậm đi không?",
-    answer: "Nhiều người vẫn mang định kiến rằng nhắc đến công nghệ chuỗi khối là nhắc đến sự chậm chạp và tắc nghẽn mạng lưới. Họ sợ việc bấm nút xong phải chờ cả phút lệnh mới khớp.\n\nTuy nhiên Hyperliquid không giống các mạng lưới thông thường. Nó là một nền tảng chuyên biệt chỉ phục vụ duy nhất cho mục đích tài chính.\n\nHãy tưởng tượng thay vì đi trên một con đường hỗn hợp đông đúc xe máy, xe đạp và người đi bộ, bạn đang lái xe trên một đường ray cao tốc dành riêng cho tàu siêu tốc. Không có ai chơi game hay lướt mạng xã hội trên con đường này để cản trở bạn.\n\nNhờ đó, mạng lưới này có khả năng xử lý hàng chục ngàn giao dịch mỗi giây với tốc độ phản hồi cực kỳ thấp. Nó biến thành một động cơ hoàn hảo để cỗ máy RIFT hoạt động mượt mà không chút độ trễ.",
+    answer: "Nhiều người vẫn mang định kiến rằng nhắc đến công nghệ chuỗi khối là nhắc đến sự chậm chạp và tắc nghẽn mạng lưới. Họ sợ việc bấm nút xong phải chờ cả phút lệnh mới khớp.\n\nTuy nhiên Hyperliquid không giống các mạng lưới thông thường. Nó là một nền tảng chuyên biệt chỉ phục vụ duy nhất cho mục đích tài chính.\n\nHãy tưởng tượng thay vì đi trên một con đường hỗn hợp đông đúc xe máy, xe đạp và người đi bộ, bạn đang lái xe trên một đường ray cao tốc dành riêng cho tàu siêu tốc. Không có ai chơi game hay lướt mạng xã hội trên con đường này để cản trở bạn.\n\nNhờ đó, mạng lưới này có khả năng xử lý 200 ngàn giao dịch mỗi giây với tốc độ phản hồi cực kỳ thấp. Nó biến thành một động cơ hoàn hảo để cỗ máy RIFT hoạt động mượt mà không chút độ trễ.",
   },
   {
     id: 10,
@@ -58,11 +58,16 @@ export const qnaList: QnA[] = [
   {
     id: 11,
     question: "Thanh toán trực tiếp trên chuỗi có lợi ích gì cho việc rút nạp tiền?",
-    answer: "Rất nhiều người dùng từng khóc ròng khi thị trường sập nhưng lệnh rút tiền lại bị hệ thống thông báo đang bảo trì hoặc chờ nhân sự duyệt thủ công mất hàng tuần lễ.\n\nTrên RIFT, mọi thứ được vận hành bởi hợp đồng thông minh. Giống như máy ATM hoạt động xuyên đêm, bạn đút thẻ vào thao tác đúng mật khẩu là máy nhả tiền ngay lập tức mà không cần gọi hỏi nhân viên ngân hàng xem họ có rảnh để duyệt lệnh hay không.\n\nQuá trình thanh toán tiền diễn ra trực tiếp trên hệ thống tự động. Ngay đúng khoảnh khắc lệnh của bạn chốt lời hoặc cắt lỗ xong, tiền lập tức chạy thẳng về ví cá nhân của bạn theo thời gian thực. Không có bất kỳ tổ chức hay cá nhân nào có quyền đóng băng hoặc giam giữ số vốn mà bạn làm ra.",
+    answer: "Rất nhiều người dùng từng khóc ròng khi thị trường sập nhưng lệnh rút tiền lại bị hệ thống thông báo đang bảo trì hoặc chờ nhân sự duyệt thủ công mất hàng tuần lễ.\n\nTrên RIFT, mọi thứ được vận hành trên nền tảng Blockchain. Giống như máy ATM hoạt động xuyên đêm, bạn đút thẻ vào thao tác đúng mật khẩu là máy nhả tiền ngay lập tức mà không cần gọi hỏi nhân viên ngân hàng xem họ có rảnh để duyệt lệnh hay không.\n\nQuá trình thanh toán tiền diễn ra trực tiếp trên hệ thống tự động. Ngay đúng khoảnh khắc lệnh của bạn chốt lời hoặc cắt lỗ xong, tiền lập tức chạy thẳng về ví cá nhân của bạn theo thời gian thực. Không có bất kỳ tổ chức hay cá nhân nào có quyền đóng băng hoặc giam giữ số vốn mà bạn làm ra.",
   },
   {
     id: 12,
     question: "Lời khuyên nào từ RIFT dành cho người dùng trong kỷ nguyên mới?",
     answer: "Đa số chúng ta vẫn giữ thói quen ngồi dán mắt vào màn hình máy tính thâu đêm suốt sáng để rình rập một cây nến xanh đỏ. Thói quen này vắt kiệt sức khỏe, cảm xúc và thường dẫn đến những quyết định sai lầm.\n\nTrong khi đó, thị trường hiện tại bị chi phối bởi các hệ thống tự động chạy nhanh hơn con người hàng triệu lần. Bạn không thể dùng cơ bắp để đua với máy móc. Lời khuyên của chúng tôi là hãy thay đổi tư duy, từ việc tự tay cầm cuốc đào đất sang việc học cách điều khiển một cỗ máy xúc.\n\nHãy nhường những công việc tay chân như canh giá, cắt lỗ và khớp lệnh siêu tốc cho trí tuệ nhân tạo. Việc của bạn là đứng ở góc nhìn vĩ mô hơn, hoạch định chiến lược vốn, quản trị cảm xúc bản thân và chọn đúng thời điểm để trao quyền thực thi cho RIFT. Máy móc làm việc của máy móc, con người làm việc của con người, đó mới là cách kiếm tiền thông minh."
+  },
+  {
+    id: 13,
+    question: "Giấy phép đầu tư tự động RIFT gồm những loại nào?",
+    answer: "Hệ thống RIFT cung cấp ba loại giấy phép phù hợp với các mức vốn khác nhau. Loại thứ nhất là giấy phép Micro Follow trị giá 100 USD với lợi nhuận giao dịch mỗi ngày từ 0.3 đến 0.5%. Loại thứ hai là giấy phép Smart Follow trị giá 500 USD mang lại lợi nhuận giao dịch mỗi ngày từ 0.5 đến 0.7%. Loại thứ ba cao cấp nhất là giấy phép Alpha Follow trị giá 1000 USD mang lại lợi nhuận giao dịch mỗi ngày từ 0.7 đến 0.9%.\n\nĐiểm đặc biệt là toàn bộ lợi nhuận sẽ được trả về tài khoản của bạn đều đặn theo chu kỳ 24h mỗi ngày. Bạn hoàn toàn làm chủ nguồn vốn của mình, có thể dừng giấy phép để rút vốn gốc bất cứ lúc nào và tiền sẽ được hoàn về tài khoản trong vòng 24h."
   }
 ];
