@@ -194,7 +194,7 @@ export default function Home() {
             <img src="/images/Loi-nhuan-rift1.jpg" alt="Lợi nhuận RIFT" className="rounded-lg w-full h-auto object-cover aspect-[3/4] border border-white/10 opacity-80 hover:opacity-100 transition-opacity" />
             <img src="/images/Loi-nhuan-rift2.jpg" alt="Lợi nhuận RIFT" className="rounded-lg w-full h-auto object-cover aspect-[3/4] border border-white/10 opacity-80 hover:opacity-100 transition-opacity" />
             <img src="/images/Loi-nhuan-rift4.jpg" alt="Lợi nhuận RIFT" className="rounded-lg w-full h-auto object-cover aspect-[3/4] border border-white/10 opacity-80 hover:opacity-100 transition-opacity" />
-            <img src="/images/Loi-nhuan-rift5.jpg" alt="Lợi nhuận RIFT" className="rounded-lg w-full h-auto object-cover aspect-[3/4] border border-white/10 opacity-80 hover:opacity-100 transition-opacity" />
+            <img src="/images/Loi-nhuan-rift7.jpg" alt="Lợi nhuận RIFT" className="rounded-lg w-full h-auto object-cover aspect-[3/4] border border-white/10 opacity-80 hover:opacity-100 transition-opacity" />
           </div>
 
           <div className="text-center mb-10">
