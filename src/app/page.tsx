@@ -369,6 +369,17 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      {/* FLOATING ZALO BUTTON */}
+      <a 
+        href="https://zalo.me/0935635788" 
+        target="_blank" 
+        rel="noreferrer" 
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-3 md:px-6 md:py-3 rounded-full bg-blue-600 text-white font-bold shadow-[0_4px_20px_rgba(37,99,235,0.5)] hover:scale-105 transition-transform"
+      >
+        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-blue-600 font-black text-xl">Z</div>
+        <span className="hidden sm:block">Nhắn Zalo Ngay</span>
+      </a>
     </div>
   );
 }
