@@ -313,6 +313,14 @@ export default function Home() {
               </ul>
             </div>
           </div>
+          
+          <div className="mt-10 p-6 md:p-8 rounded-2xl bg-gradient-to-r from-blue-900/20 to-purple-900/20 border border-white/10 text-center">
+            <h3 className="text-xl font-bold text-white mb-3">Bạn là một Trader muốn tự kiểm soát điểm vào lệnh?</h3>
+            <p className="text-gray-400 mb-6">Chúng tôi có giải pháp công nghệ Terminal chuyên biệt hỗ trợ Trader phân tích và khớp lệnh tốc độ cao.</p>
+            <a href="https://rifttradingai.vercel.app/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-cyan-400 font-bold hover:text-cyan-300 transition-colors">
+              Khám phá Giải pháp RIFT dành riêng cho Trader <ArrowRight size={16} />
+            </a>
+          </div>
         </div>
       </section>
 
@@ -344,6 +352,11 @@ export default function Home() {
                 </AnimatePresence>
               </div>
             ))}
+          </div>
+          <div className="mt-10 text-center">
+            <a href="https://giaidapriftprotocol.vercel.app/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 text-cyan-400 font-medium hover:bg-white/10 transition-all">
+              Xem Bộ Giải Đáp Thắc Mắc Chuyên Sâu <ArrowRight size={16} />
+            </a>
           </div>
         </div>
       </section>
