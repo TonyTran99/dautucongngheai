@@ -253,8 +253,8 @@ export default function Home() {
                 </li>
               </motion.ul>
 
-              <motion.a variants={fadeIn} href="https://www.youtube.com/playlist?list=PLBkXqcyBeXu8gTGAvgpbIJxN7l4JiJfcx" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-cyan-400 font-medium hover:text-cyan-300 transition-colors">
-                <Play size={20} /> Xem Series CEO RIFT đào tạo về công nghệ lõi
+              <motion.a variants={fadeIn} href="https://www.youtube.com/playlist?list=PLBkXqcyBeXu-SJu1on3wT_5Rt1TZd4f_z" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-cyan-400 font-medium hover:text-cyan-300 transition-colors">
+                <Play size={20} /> Xem Series hướng dẫn sử dụng ứng dụng RIFT
               </motion.a>
             </motion.div>
           </div>
@@ -324,6 +324,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* YOUTUBE PLAYLIST */}
+      <section className="py-20 md:py-28 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-blue-900/10 via-[#050505] to-[#050505]"></div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 font-medium text-sm mb-6">
+              <Play size={16} /> Thư Viện Hướng Dẫn
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Hướng Dẫn Sử Dụng <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Ứng Dụng RIFT</span></h2>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">Toàn bộ video hướng dẫn từ cài đặt, kết nối ví đến theo dõi lợi nhuận — được tổng hợp trong một danh sách phát đầy đủ.</p>
+          </motion.div>
+
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black/50">
+            <div className="aspect-video w-full">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/videoseries?list=PLBkXqcyBeXu-SJu1on3wT_5Rt1TZd4f_z&controls=1&rel=0"
+                title="Hướng dẫn sử dụng ứng dụng RIFT"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </motion.div>
+
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="mt-8 text-center">
+            <a
+              href="https://www.youtube.com/playlist?list=PLBkXqcyBeXu-SJu1on3wT_5Rt1TZd4f_z"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-red-600/20 border border-red-500/30 text-red-400 font-medium hover:bg-red-600/30 hover:text-red-300 transition-all"
+            >
+              <Play size={18} /> Xem toàn bộ danh sách phát trên YouTube <ArrowRight size={16} />
+            </a>
+          </motion.div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 bg-[#0A0A0A] border-t border-white/5">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -368,6 +406,21 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl font-bold mb-6">Sẵn Sàng Để Tiền Làm Việc Cho Bạn?</h2>
           <p className="text-xl text-gray-400 mb-10">Mọi quyết định lớn đều bắt đầu từ một thao tác nhỏ. Đừng để lạm phát tiếp tục ăn mòn tài sản của bạn.</p>
           
+          {/* Primary CTA - Tải App Miễn Phí */}
+          <div className="mb-10">
+            <a
+              href="https://app.riftprotocol.ai/r/riftvn"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-extrabold text-xl hover:shadow-[0_0_40px_rgba(6,182,212,0.5)] hover:scale-105 transition-all"
+            >
+              <Play size={24} />
+              Tải ứng dụng và trải nghiệm Rift miễn phí
+              <ArrowRight size={22} />
+            </a>
+            <p className="mt-3 text-sm text-gray-500">Tài khoản Demo · Không cần thẻ tín dụng · Bắt đầu ngay hôm nay</p>
+          </div>
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <a href="https://zalo.me/0935635788" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 rounded-full bg-blue-600 text-white font-bold text-lg hover:bg-blue-500 transition-colors shadow-lg">
               Tư Vấn Zalo: 0935.635.788
