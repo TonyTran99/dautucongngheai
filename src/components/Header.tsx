@@ -10,7 +10,7 @@ export function Header() {
         </div>
         <div className="flex items-center gap-4">
           <Link 
-            href="https://app.riftprotocol.ai/r/WiJcDb"
+            href="https://app.riftprotocol.ai/r/riftvn"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex h-9 items-center justify-center gap-2 rounded-full bg-rift px-4 text-sm font-medium text-white transition-all hover:bg-rift-light hover:shadow-[0_0_20px_rgba(0,168,89,0.4)]"

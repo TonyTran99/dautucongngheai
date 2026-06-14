@@ -16,7 +16,7 @@ export function CTASection() {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <Link 
-            href="https://app.riftprotocol.ai/r/WiJcDb"
+            href="https://app.riftprotocol.ai/r/riftvn"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto flex h-16 items-center justify-center gap-2 rounded-xl bg-rift px-10 text-lg font-bold text-white transition-all hover:bg-rift-light hover:scale-105 hover:shadow-[0_0_30px_rgba(0,168,89,0.5)]"
